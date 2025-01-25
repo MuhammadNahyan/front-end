@@ -1,0 +1,21 @@
+/* .main-container{
+  background: url("./assets/bg.png");
+  background-size: cover;
+} */
+
+.main-container {
+  background: linear-gradient(135deg, rgba(32, 83, 39, 0.7), rgba(0, 0, 0, 0.5)), url("./assets/bg-new.png");
+  background-size: cover;
+  background-position: center; 
+  min-height: 100vh; 
+  padding: 2rem;
+  color: var(--text-color); 
+}
+
+h1, h2, h3 {
+  color: var(--heading-color); 
+}
+
+p {
+  color: var(--text-color); 
+}
